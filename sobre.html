@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSTech </title>
+    <link rel="stylesheet" href="/styles/globals.css"/>
+    <link rel="stylesheet" href="styles/globals.css">
+</head>
+<body>
+    <div class="navbar show-menu">
+    <div class="header-inner-content ">
+        <h1 class="logo">HS<span>TECH</span></h1>
+        <nav>
+            <ul>
+                <a href="/images/terminado.html"><li>Home</li></a>
+                <a href="/images/produtos.html"><li>Produtos</li></a>
+                <a href="/images/sobre.html"><li>sobre</li></a>
+                <a href="/images/login.html"><li>Conta</li></a>
+              
+                
+        </nav>
+        <div class="nav-icon-container">
+            <img src="/images/cart.png" />
+            <img src="/images/menu.png" class="menu-button" />
+        </div>   
+     </div>
+   </div>
+
+   <header>
+    <div class="header-inner-content">
+        <div class="header-button-side">
+            <div class="header-button-side-left">
+                <h2>Quem nós somos?</h2>
+                <p>Vamos fala um pouco sobre nossa loja de artigos eletrônicos, 
+                    nosso plano é proporcionar o melhor desempenho para o mundo tecnológico, 
+                    com custo razoável para nossos produtos, com entregas rápidas ,confiáveis e protegidas 
+                </p>
+               
+        </div>
+    </div>
+   </header>
+
+   
+</main>
+
+   <footer class="gray-background">
+    <div class="page-inner-content footer-content">
+        <div class="download-options">
+            <p>Baixe nosso app para Android e Ios</p>
+            <div>
+                <img src="app-store.png" alt="">
+                <img src="play-store.png" alt="">
+            </div>
+        </div>
+        <div class="logo-footer">
+            <h1 class="logo">HS<span>TECH</span></h1>
+            <p>Nosso objetivo é ajudar pessoas comuns a realizarem seus
+                sonhos
+            </p>
+        </div>
+        
+        <div class="links-footer">
+            <h3>Links úteis</h3>
+            <ul>
+                <li>Cupons</li>
+                <li>Fale Conosco</li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <hr class="page-inner-content" />
+
+    <div class="page-inner-content copyright">
+        <p>Copyright 2023 - Nos memo - Todos Direitos Reservados</p>
+    </div>
+   </footer>
+
+<script>
+    const navbar = document.querySelector(".navbar");
+    const menubutton = document.querySelector(".menu-button");
+
+    menubutton.addEventListener('click', () => {
+        navbar.classList.toggle("show-menu");
+    });
+</script>
+
+</body>
+</html>
